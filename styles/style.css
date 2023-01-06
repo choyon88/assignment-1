@@ -74,10 +74,13 @@ li {
   color: #444343;
   padding: 5px;
 }
-li img {
+li:before {
+    content: '✓';
+  }
+/* li img {
   height: 12px;
   width: 13px;
-}
+} */
 /* plan section design */
 #plans {
   height: 100vh;
