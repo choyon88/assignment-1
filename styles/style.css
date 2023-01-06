@@ -76,11 +76,9 @@ li {
 }
 li:before {
     content: '✓';
+    color: green;
   }
-/* li img {
-  height: 12px;
-  width: 13px;
-} */
+
 /* plan section design */
 #plans {
   height: 100vh;
