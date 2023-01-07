@@ -4,6 +4,66 @@
   padding: 0;
 }
 /* header part design */
+
+/* nav bar design */
+#nav-bar {
+  width: 100%;
+  height: 90px;
+  background-color: transparent;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 200px;
+}
+.logo-text {
+  font-size: 45px;
+  margin-top: 30px;
+}
+.logo-letter {
+  color: orangered;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.item ul li {
+  list-style: none;
+  display: inline-block;
+}
+.item ul li a {
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 23px;
+  font-weight: 700;
+  color: black;
+  border: 1px solid transparent;
+}
+.nav-btn {
+  padding: 10px 15px;
+  background-color: orangered;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-left: 10px;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.item ul li a:hover {
+  background-color: orangered;
+  color: white;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+.nav-btn:hover {
+  background-color: white;
+  color: orangered;
+}
+/* banner part design */
 #banner {
   width: 100%;
   height: 100vh;
@@ -74,10 +134,10 @@ li {
   color: #444343;
   padding: 5px;
 }
-li:before {
-    content: '✓';
-    color: green;
-  }
+li.check:before {
+  content: "✓";
+  color: green;
+}
 
 /* plan section design */
 #plans {
