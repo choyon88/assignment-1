@@ -169,6 +169,7 @@ li.check:before {
   font-size: 20px;
   color: #737272;
 }
+
 /* image with gradient style */
 .image-gradient-container {
   background-image: url(../images/gradient2.png), url(../images/watch.png);
@@ -177,6 +178,7 @@ li.check:before {
   margin: 0 auto;
   border-radius: 5px;
   background-size: cover;
+  background-blend-mode: multiply;
 }
 .image-gradient-title {
   font-weight: 700;
@@ -192,6 +194,7 @@ li.check:before {
   cursor: pointer;
   border-radius: 5px;
 }
+
 /* footer section */
 #footers {
   background-color: black;
